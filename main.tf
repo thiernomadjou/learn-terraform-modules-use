@@ -3,7 +3,8 @@
 
 provider "aws" {
   region = "us-west-2"
-
+  # region = "eu-west-3"
+  
   default_tags {
     tags = {
       hashicorp-learn = "module-use"
